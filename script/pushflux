@@ -10,10 +10,10 @@ use Mojo::UserAgent;
 
 sub DEBUG { 1 }
 
+my $buffer      = '100';                # flush buffer to influx after $buffer lines
+my $mmin        = '-2';                 # find files modified in last 2 mins
 my $monitor     = '/var/lib/pushflux';  # folder to monitor
 my $monitor_ext = 'log';                # file extension to include in pushes
-my $mmin        = '-2';                 # find files modified in last 2 mins
-my $buffer      = '100';                # flush buffer to influx after $buffer lines
 my $symlinks    = '-L';                 # find will follow symlinks
 $monitor .= '/' unless $monitor =~ m,/$,;
 
