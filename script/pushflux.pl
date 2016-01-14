@@ -92,12 +92,3 @@ sub pushflux {
     }
   }
 }
-
-__END__
-
-# TODO
-#
-# Notify on all errors
-# Notify if there's an error pushing to an influxdb
-# Handle influxdbs which non-default (8086) ports
-#
