@@ -52,10 +52,14 @@ my $symlinks    = '-L';                 # find will follow symlinks
 ## Setup
 
 ```
-  $ sudo mkdir -p /var/run/pushflux
-  $ sudo chmod 777 /var/run/pushflux
-  $ sudo mkdir -p /var/lib/pushflux
-  $ sudo chmod 777 /var/lib/pushflux
+# clone the repo
+$ sudo git clone https://github.com/kwakwaversal/pushflux.git /opt/pushflux
+
+# set up required to make pushflux work
+$ sudo mkdir -p /var/run/pushflux
+$ sudo chmod 777 /var/run/pushflux
+$ sudo mkdir -p /var/lib/pushflux
+$ sudo chmod 777 /var/lib/pushflux
 ```
 
 ## Crontab
