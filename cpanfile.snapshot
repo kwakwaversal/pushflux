@@ -1,0 +1,228 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  IO-Socket-IP-0.37
+    pathname: P/PE/PEVANS/IO-Socket-IP-0.37.tar.gz
+    provides:
+      IO::Socket::IP 0.37
+    requirements:
+      IO::Socket 0
+      Socket 1.97
+      Test::More 0.88
+  IPC-ConcurrencyLimit-0.14
+    pathname: M/MA/MATTK/IPC-ConcurrencyLimit-0.14.tar.gz
+    provides:
+      IPC::ConcurrencyLimit 0.14
+      IPC::ConcurrencyLimit::Lock undef
+      IPC::ConcurrencyLimit::Lock::Flock undef
+      IPC::ConcurrencyLimit::WithStandby undef
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      File::Path 0
+      File::Temp 0
+      IO::File 0
+  Log-Unrotate-1.32
+    pathname: D/DR/DRUXA/Log-Unrotate-1.32.tar.gz
+    provides:
+      Log::Unrotate 1.32
+      Log::Unrotate::Cursor 1.32
+      Log::Unrotate::Cursor::File 1.32
+      Log::Unrotate::Cursor::Null 1.32
+    requirements:
+      Carp 0
+      Digest::MD5 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      Fcntl 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Temp 0.15
+      File::stat 0
+      Getopt::Long 2.33
+      IO::Handle 0
+      Pod::Usage 0
+      Test::Exception 0
+      Test::More 0
+      Test::NoWarnings 0
+      base 0
+      overload 0
+      strict 0
+      warnings 0
+  Mojolicious-6.40
+    pathname: S/SR/SRI/Mojolicious-6.40.tar.gz
+    provides:
+      Mojo undef
+      Mojo::Asset undef
+      Mojo::Asset::File undef
+      Mojo::Asset::Memory undef
+      Mojo::Base undef
+      Mojo::ByteStream undef
+      Mojo::Cache undef
+      Mojo::Collection undef
+      Mojo::Content undef
+      Mojo::Content::MultiPart undef
+      Mojo::Content::Single undef
+      Mojo::Cookie undef
+      Mojo::Cookie::Request undef
+      Mojo::Cookie::Response undef
+      Mojo::DOM undef
+      Mojo::DOM::CSS undef
+      Mojo::DOM::HTML undef
+      Mojo::Date undef
+      Mojo::EventEmitter undef
+      Mojo::Exception undef
+      Mojo::Headers undef
+      Mojo::HelloWorld undef
+      Mojo::Home undef
+      Mojo::IOLoop undef
+      Mojo::IOLoop::Client undef
+      Mojo::IOLoop::Delay undef
+      Mojo::IOLoop::Server undef
+      Mojo::IOLoop::Stream undef
+      Mojo::JSON undef
+      Mojo::JSON::Pointer undef
+      Mojo::Loader undef
+      Mojo::Log undef
+      Mojo::Message undef
+      Mojo::Message::Request undef
+      Mojo::Message::Response undef
+      Mojo::Parameters undef
+      Mojo::Path undef
+      Mojo::Reactor undef
+      Mojo::Reactor::EV undef
+      Mojo::Reactor::Poll undef
+      Mojo::Server undef
+      Mojo::Server::CGI undef
+      Mojo::Server::Daemon undef
+      Mojo::Server::Hypnotoad undef
+      Mojo::Server::Morbo undef
+      Mojo::Server::PSGI undef
+      Mojo::Server::PSGI::_IO undef
+      Mojo::Server::Prefork undef
+      Mojo::Template undef
+      Mojo::Transaction undef
+      Mojo::Transaction::HTTP undef
+      Mojo::Transaction::WebSocket undef
+      Mojo::URL undef
+      Mojo::Upload undef
+      Mojo::UserAgent undef
+      Mojo::UserAgent::CookieJar undef
+      Mojo::UserAgent::Proxy undef
+      Mojo::UserAgent::Server undef
+      Mojo::UserAgent::Transactor undef
+      Mojo::Util undef
+      Mojo::WebSocket undef
+      Mojolicious 6.40
+      Mojolicious::Command undef
+      Mojolicious::Command::cgi undef
+      Mojolicious::Command::cpanify undef
+      Mojolicious::Command::daemon undef
+      Mojolicious::Command::eval undef
+      Mojolicious::Command::generate undef
+      Mojolicious::Command::generate::app undef
+      Mojolicious::Command::generate::lite_app undef
+      Mojolicious::Command::generate::makefile undef
+      Mojolicious::Command::generate::plugin undef
+      Mojolicious::Command::get undef
+      Mojolicious::Command::inflate undef
+      Mojolicious::Command::prefork undef
+      Mojolicious::Command::psgi undef
+      Mojolicious::Command::routes undef
+      Mojolicious::Command::test undef
+      Mojolicious::Command::version undef
+      Mojolicious::Commands undef
+      Mojolicious::Controller undef
+      Mojolicious::Lite undef
+      Mojolicious::Plugin undef
+      Mojolicious::Plugin::Charset undef
+      Mojolicious::Plugin::Config undef
+      Mojolicious::Plugin::Config::Sandbox undef
+      Mojolicious::Plugin::DefaultHelpers undef
+      Mojolicious::Plugin::EPLRenderer undef
+      Mojolicious::Plugin::EPRenderer undef
+      Mojolicious::Plugin::HeaderCondition undef
+      Mojolicious::Plugin::JSONConfig undef
+      Mojolicious::Plugin::Mount undef
+      Mojolicious::Plugin::PODRenderer undef
+      Mojolicious::Plugin::TagHelpers undef
+      Mojolicious::Plugins undef
+      Mojolicious::Renderer undef
+      Mojolicious::Routes undef
+      Mojolicious::Routes::Match undef
+      Mojolicious::Routes::Pattern undef
+      Mojolicious::Routes::Route undef
+      Mojolicious::Sessions undef
+      Mojolicious::Static undef
+      Mojolicious::Types undef
+      Mojolicious::Validator undef
+      Mojolicious::Validator::Validation undef
+      Test::Mojo undef
+      ojo undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Socket::IP 0.37
+      JSON::PP 2.27103
+      Pod::Simple 3.09
+      Time::Local 1.2
+  Sub-Uplevel-0.25
+    pathname: D/DA/DAGOLDEN/Sub-Uplevel-0.25.tar.gz
+    provides:
+      Sub::Uplevel 0.25
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.17
+      constant 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Test-Exception-0.43
+    pathname: E/EX/EXODIST/Test-Exception-0.43.tar.gz
+    provides:
+      Test::Exception 0.43
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Sub::Uplevel 0.18
+      Test::Builder 0.7
+      Test::Builder::Tester 1.07
+      Test::Harness 2.03
+      base 0
+      perl 5.006001
+      strict 0
+      warnings 0
+  Test-NoWarnings-1.04
+    pathname: A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz
+    provides:
+      Test::NoWarnings 1.04
+      Test::NoWarnings::Warning 1.04
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Builder 0.86
+      Test::More 0.47
+      Test::Tester 0.107
+      perl 5.006
+  Test-Simple-1.001014
+    pathname: E/EX/EXODIST/Test-Simple-1.001014.tar.gz
+    provides:
+      Test::Builder 1.001014
+      Test::Builder::IO::Scalar 2.113
+      Test::Builder::Module 1.001014
+      Test::Builder::Tester 1.28
+      Test::Builder::Tester::Color 1.290001
+      Test::Builder::Tester::Tie 1.28
+      Test::More 1.001014
+      Test::Simple 1.001014
+      Test::Tester 0.114
+      Test::Tester::Capture undef
+      Test::Tester::CaptureRunner undef
+      Test::Tester::Delegate undef
+      Test::use::ok 0.16
+      ok 0.16
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 1.13
+      Test::Harness 2.03
+      perl 5.006

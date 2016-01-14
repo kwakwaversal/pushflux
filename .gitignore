@@ -1,0 +1,29 @@
+#############
+## Windows detritus
+#############
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+#############
+## Project related
+#############
+
+*.key
+*.pem
+local/
+log/
+test.db
+test.db-journal
+virtual_office.development.conf
+virtual_office.production.conf
